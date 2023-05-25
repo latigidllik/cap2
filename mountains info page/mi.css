@@ -103,16 +103,6 @@ body {
   padding: 0, 0, 0, 0;
   margin-bottom: 2%;
 }
-/* select {
-  padding: 8px 12px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  outline: none;
-  transition: border-color 0.3s ease;
-} */
 
 select:focus {
   border-color: #ffb700;
@@ -136,12 +126,7 @@ select {
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.1
-  ); /* Adjust the alpha value (0 to 1) to control the transparency */
+  background-color: rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   outline: none;
   transition: border-color 0.3s ease;
