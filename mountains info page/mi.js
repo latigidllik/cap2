@@ -1,10 +1,9 @@
-
-
 window.onload = main;
 
 function main() {
     loadMountainsInfo();
 }
+
 
 function loadMountainsInfo() {
     const selectElement = document.querySelector("#mountain");
@@ -17,6 +16,7 @@ function loadMountainsInfo() {
         selectElement.append(option);
     }
 }
+
 
 function mountainChange() {
     const selectElement = document.querySelector("#mountain");

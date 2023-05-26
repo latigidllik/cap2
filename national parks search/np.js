@@ -6,6 +6,7 @@ function main() {
     parkStateData();
 }
 
+
 function nationParksInfo() {
     const selectElement = document.querySelector("#parks");
 
@@ -31,6 +32,7 @@ function parkStateData() {
 
     selectElement.onchange = selectedState;
 }
+
 
 function selectedPark() {
     const selectedPark = document.querySelector("#parks").value;
@@ -85,11 +87,6 @@ function displayData(data) {
             visit.style.display = "none";
         }
         cardBody.appendChild(visit);
-
-
-
-
-
 
         card.appendChild(cardBody);
         out.appendChild(card);
