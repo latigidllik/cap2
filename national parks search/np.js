@@ -82,7 +82,7 @@ function displayData(data) {
         if (element.Visit !== undefined) {
             visit.innerText = element.Visit;
         } else {
-            visit.style.display = "none"; // Hide the visit element if element.Visit is undefined
+            visit.style.display = "none";
         }
         cardBody.appendChild(visit);
 
