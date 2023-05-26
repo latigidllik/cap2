@@ -48,6 +48,7 @@ function selectedState() {
     displayData(stateDisplayData);
 }
 
+
 function displayData(data) {
     const out = document.getElementById("main");
     out.innerHTML = "";
@@ -56,7 +57,6 @@ function displayData(data) {
         const card = document.createElement("div");
         card.classList.add("card", "mb-3");
         card.style.backgroundColor = "rgba(255, 255, 255, 0.5)";
-
 
         const cardBody = document.createElement("div");
         cardBody.classList.add("card-body");
@@ -73,18 +73,29 @@ function displayData(data) {
         address.classList.add("card-text");
         address.innerText = element.Address;
 
-        const visit = document.createElement("p");
-        visit.classList.add("card-text");
-        visit.innerText = element.Visit;
-
         cardBody.appendChild(title);
         cardBody.appendChild(subtitle);
         cardBody.appendChild(address);
+
+        const visit = document.createElement("p");
+        visit.classList.add("card-text");
+        if (element.Visit !== undefined) {
+            visit.innerText = element.Visit;
+        } else {
+            visit.style.display = "none"; // Hide the visit element if element.Visit is undefined
+        }
         cardBody.appendChild(visit);
+
+
+
+
+
+
         card.appendChild(cardBody);
         out.appendChild(card);
     }
 }
+
 
 function filterParkData(selectedPark, selectedState) {
     const filteredParkData = nationalParksArray.filter(
