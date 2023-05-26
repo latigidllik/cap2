@@ -4,8 +4,8 @@
 
 ### Preview:
 
-![Home page](./Capture1111.png)
 ![Home page](./Capture1112.png)
+![Home page](./Capture1111.png)
 ![National park page](./Capture1113.png)
 ![National park page](./Capture1114.PNG)
 ![Mountains information page](./Capture1115.PNG)
