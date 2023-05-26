@@ -4,7 +4,7 @@
 
 ### Preview:
 
-![Home page](./Capture1111.png)
+![Home page](./Capture1111.PNG)
 ![Home page](./Capture1112.png)
 ![National park page](./Capture1113.png)
 ![National park page](./Capture1114.PNG)
